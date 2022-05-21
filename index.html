@@ -1,12 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ptBr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>&lt;Miguel&gt; - Home</title>
+    <link rel="stylesheet" href="./css/home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
 </head>
+
 <body>
-    Teste
+    <img class='bg-home' src="./assets/bg.gif">
+    <section id="home" class='home'>
+        <header>
+            <div class="container w-50">
+                <nav class="d-flex justify-content-center py-3">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item me-5"><a href="#explore" class="nav-link ">Explore</a></li>
+                        <li class="nav-item me-5"><a href="#" class="nav-link ">Sobre</a></li>
+                        <li class="nav-item me-5"><a href="#home" class="nav-link"><img style="background-color: #808080;" class="logo" src="./assets/logo.svg" alt=""></a></li>
+                        <li class="nav-item me-5"><a href="#" class="nav-link">Suporte</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Search</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <h2>Welcome Children</h2>
+            <p>Aqui você ira ver um pouco dos meus<br> projetos diferenciados</p>
+        </main>
+    </section>
+
+    <section id="#explore" class='explore'>
+        <header style="visibility: hidden;">. </header>
+        <main data-aos="fade-up" data-aos-duration="2000">
+            <div class="container">
+                <a class="floating" onclick="skip()">&#10094;</a>
+                <h2>Aprecie algumas atividades</h2>
+                <div class="card-group col-sm active">
+                    <div class="card">
+                        <a href="./exercicios-pw/aula-1.php">
+                            <img src="./assets/imgs/pre-1.PNG" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Exercicio 1</h5>
+                                <p class="card-text">A proposta da primeira aula foi, fazer um site que mostre a letra de uma musica utilizando o comando (Echo) do (PHP).</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="./exercicios-pw/aula-3.php">
+                            <img src="./assets/imgs/pre-2.PNG" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Exercicio 2</h5>
+                                <p class="card-text">Nessa segunda atividade foi proposta uma lista de exercicios usando o (IF & ELSE), todos utilizando a logica do (PHP) tendo paginas diferentes.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="./exercicios-pw/aula-4.php">
+                            <img src="./assets/imgs/pre-3.PNG" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Exercicio 3</h5>
+                                <p class="card-text">Para o exercicio 3, foi requisitado três exercicios para fazer, utilizando o (SWITCH) para substituir o (ELSEIF).</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <section class="about">
+        <header style="visibility: hidden;">.</header>
+        <main>
+            <div class="container" data-aos="fade-left" data-aos-duration="1500">
+                <div class="row row-cols-2">
+                    <div class="col">
+                        <p><strong>Sobre a tecnologia e eu?</strong><br>Foi paixão a primeira vista, esse universo de possibilidades infinitas é muito fascinante, mostrou-me um caminho que me tornou quem sou hoje. Atualmente curso o ensino técnico em desenvolvimento de sistemas, e em breve e com muito esforço irei-me tornar o programador que tanto almejo.</p>
+                    </div>
+                    <div class="col">
+                        <div class="box" data-aos="fade-left" data-aos-duration="2000">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHMghhs5R_gDA/profile-displayphoto-shrink_800_800/0/1614619774208?e=1656547200&v=beta&t=yn4lBXz1CN4DS0xLEnlRshwkqXlQTc8s5KW7z1BH0ok" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <section class="copy">
+        <header style="visibility: hidden;">.</header>
+        <main>
+            <p>Que tal me seguir nas redes sociais?</p>
+            <img class="cel" src="./assets/cel.svg" />
+            <div class="window">
+                <a href="https://github.com/Miguel-Barros"><img src="./assets/github-icon.svg" /></a>
+                <a href="https://www.linkedin.com/in/miguelbarrosdev"><img src="./assets/linkedin-icon.svg" /></a>
+                <a href="https://www.instagram.com/mi.nbb/"><img src="./assets/insta-icon.svg" /></a>
+            </div>
+        </main>
+        <footer>
+            <p>2022 © Barros, Miguel</p>
+        </footer>
+    </section>
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+
+    var skipCount = 1;
+    function skip() {
+
+    }
+
+</script>
+
 </html>
